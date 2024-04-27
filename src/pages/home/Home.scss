@@ -1,0 +1,51 @@
+.home {
+  display: grid;
+  grid-template-columns: 320px 700px auto;
+  gap: 40px;
+  aside {
+    position: sticky;
+    top: 0;
+    padding: 40px 30px 30px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-right: 1px solid #ccc;
+    .top {
+      h1 {
+        margin-bottom: 60px;
+        font-family: "Carter One", sans-serif;
+      }
+      ul {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+      }
+    }
+    li {
+      a {
+        color: #222;
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        transition: all 0.25s ease;
+        &.active {
+          font-weight: bold;
+        }
+        &:hover {
+          color: rgb(32, 102, 155);
+        }
+        box-icon {
+        }
+        span {
+        }
+      }
+    }
+  }
+  article {
+    .post {
+    }
+  }
+  .right-aside {
+  }
+}
